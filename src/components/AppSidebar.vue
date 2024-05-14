@@ -9,7 +9,6 @@ const items = ref([
   { name: 'Settings', value: "/Settings"},
   { name: 'Order Book', value: "/OrderBook"}
 ])
-
 const navigateTo = (index) => {
   router.push(index);
 };
