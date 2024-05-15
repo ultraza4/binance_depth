@@ -6,13 +6,14 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d dist"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@mdi/font": "7.0.96",
     "axios": "^1.6.8",
     "dayjs": "^1.11.11",
+    "firebase": "^10.12.0",
     "pinia": "^2.1.7",
     "roboto-fontface": "*",
     "vue": "^3.4.0",
