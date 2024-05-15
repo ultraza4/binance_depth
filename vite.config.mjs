@@ -10,7 +10,6 @@ import { fileURLToPath, URL } from 'node:url'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "/binance_depth/",
   plugins: [
     Vue({
       template: { transformAssetUrls }

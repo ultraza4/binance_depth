@@ -1,9 +1,9 @@
 import { createWebHistory, createRouter } from 'vue-router'
 
 const routes = [
-  { path: '/', redirect: 'binance_depth/Settings'},
-  { path: 'binance_depth/Settings', component: import('../pages/SettingsPage.vue') },
-  { path: 'binance_depth/OrderBook', component: import('../pages/OrderBookPage.vue') },
+  { path: '/', redirect: '/Settings'},
+  { path: '/Settings', component: import('../pages/SettingsPage.vue') },
+  { path: '/OrderBook', component: import('../pages/OrderBookPage.vue') },
 ]
 
 const router = createRouter({
